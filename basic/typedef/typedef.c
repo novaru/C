@@ -1,13 +1,11 @@
 #include <stdio.h>
-// #include <string.h>
 
 typedef struct
 {
   char brand[24];
   char series[12];
-  int id;
+  int  id;
 } Car;
-
 
 int main()
 {
@@ -15,7 +13,7 @@ int main()
 
   Car car1 = {"Toyota", "Supra", 123456789};
   Car car2 = {"Koenigsegg", "Regera", 987654321};
-  
+
   printf("Car id: %d\n", car1.id);
   printf("Brand: %s\n", car1.brand);
   printf("Series: %s\n", car1.series);
